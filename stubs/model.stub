@@ -1,0 +1,27 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * Class {{ class }}
+ * @package {{ namespace }}
+ * @property-read int $id
+ * @property-read \Carbon\Carbon $created_at
+ * @property-read \Carbon\Carbon $updated_at
+ */
+class {{ class }} extends Model
+{
+    use HasFactory;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        //
+    ];
+}
